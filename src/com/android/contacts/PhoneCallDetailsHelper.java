@@ -16,15 +16,9 @@
 
 package com.android.contacts;
 
-<<<<<<< HEAD
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Typeface;
-import android.mokee.location.PhoneLocation;
-=======
-import android.content.res.Resources;
-import android.graphics.Typeface;
->>>>>>> upstream/jellybean
 import android.provider.ContactsContract.CommonDataKinds.Phone;
 import android.telephony.PhoneNumberUtils;
 import android.text.SpannableString;
@@ -39,6 +33,8 @@ import android.widget.TextView;
 import com.android.contacts.calllog.CallTypeHelper;
 import com.android.contacts.calllog.PhoneNumberHelper;
 import com.android.contacts.test.NeededForTesting;
+
+import android.mokee.location.PhoneLocation;
 
 /**
  * Helper class to fill in the views in {@link PhoneCallDetailsViews}.
