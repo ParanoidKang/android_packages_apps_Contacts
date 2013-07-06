@@ -16,10 +16,15 @@
 
 package com.android.contacts;
 
+<<<<<<< HEAD
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.mokee.location.PhoneLocation;
+=======
+import android.content.res.Resources;
+import android.graphics.Typeface;
+>>>>>>> upstream/jellybean
 import android.provider.ContactsContract.CommonDataKinds.Phone;
 import android.telephony.PhoneNumberUtils;
 import android.text.SpannableString;
@@ -133,7 +138,6 @@ public class PhoneCallDetailsHelper {
         	views.locationView.setVisibility(TextUtils.isEmpty(details.geocode) ? View.INVISIBLE : View.VISIBLE);
         }
         
-
         views.nameView.setText(nameText);
         views.numberView.setText(numberText);
         views.labelView.setText(labelText);
