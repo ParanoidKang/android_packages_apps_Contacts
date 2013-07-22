@@ -611,4 +611,21 @@
     <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"要呼叫语音信箱，请先关闭飞行模式。"</string>
     <string name="menu_export_database" msgid="2659719297530170820">"导出数据库文件"</string>
     <string name="action_menu_overflow_description" msgid="2303272250613084574">"更多选项"</string>
+    <plurals name="hour">
+        <item quantity="one">1 小时</item>
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">1 分钟</item>
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="one">1 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+
+    <plurals name="call">
+        <item quantity="one">1 次通话</item>
+        <item quantity="other">%d 次通话</item>
+    </plurals>
 </resources>
