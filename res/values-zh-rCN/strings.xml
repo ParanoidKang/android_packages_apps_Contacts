@@ -293,6 +293,36 @@
     <string name="add_wait" msgid="3360818652790319634">"延长等待时间"</string>
     <string name="call_disambig_title" msgid="4392886850104795739">"选择号码"</string>
     <string name="call_settings" msgid="7666474782093693667">"设置"</string>
+    <string name="call_stats">通话统计</string>
+    <string name="call_stats_refresh">刷新</string>
+    <string name="activity_title_call_stats">通话统计数据</string>
+    <string name="call_stats_nav_all">全部</string>
+    <string name="call_stats_nav_incoming">来电</string>
+    <string name="call_stats_nav_outgoing">呼出</string>
+    <string name="call_stats_nav_missed">未接</string>
+    <string name="call_stats_incoming">来电: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">呼出: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_missed">未接</string>
+    <string name="call_stats_missed_percent">未接: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">总计: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">总计: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">开始日期</string>
+    <string name="call_stats_filter_to">结束日期</string>
+    <string name="call_stats_filter_picker_title">过滤范围</string>
+    <string name="date_quick_selection">快速选择</string>
+    <string name="date_qs_currentmonth">本月</string>
+    <string name="date_qs_currentquarter">本季度</string>
+    <string name="date_qs_currentyear">本年</string>
+    <string name="date_qs_lastweek">上周</string>
+    <string name="date_qs_lastmonth">上个月</string>
+    <string name="date_qs_lastquarter">上个季度</string>
+    <string name="date_qs_lastyear">去年</string>
+    <string name="call_stats_date_filter">调整时间范围</string>
+    <string name="call_stats_reset_filter">重置时间范围</string>
+    <string name="call_stats_sort_by_duration">以通话时间排序</string>
+    <string name="call_stats_sort_by_count">以通话次数排序</string>
+    <string name="menu_add_to_blacklist">添加到黑名单</string>
+    <string name="toast_added_to_blacklist">%s 已添加到黑名单.</string>
     <string name="sms_disambig_title" msgid="5846266399240630846">"选择号码"</string>
     <string name="make_primary" msgid="5829291915305113983">"记住此选择"</string>
     <string name="quickcontact_missing_app" msgid="358168575340921552">"未找到可处理此操作的应用。"</string>
