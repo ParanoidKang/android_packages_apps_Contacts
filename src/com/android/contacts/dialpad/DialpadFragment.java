@@ -517,6 +517,11 @@ public class DialpadFragment extends Fragment
         dialString =
                 PhoneNumberUtils.formatNumber(dialString, normalizedNumber, mCurrentCountryIso);
         if (!TextUtils.isEmpty(dialString)) {
+            Log.e("xifan",mDigits.getText().toString() + dialString);
+            if (dialString.equals(mDigits.getText().toString())) {
+                dialButtonPressed();
+                return;
+            }
             Editable digits = mDigits.getText();
             digits.replace(0, digits.length(), dialString);
             // for some reason this isn't getting called in the digits.replace call above..
