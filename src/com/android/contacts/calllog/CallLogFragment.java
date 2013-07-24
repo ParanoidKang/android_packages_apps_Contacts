@@ -336,12 +336,21 @@ public class CallLogFragment extends ListFragment
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
         final MenuItem itemDeleteAll = menu.findItem(R.id.delete_all);
+        final MenuItem itemShowAll = menu.findItem(R.id.show_all_calls);
+        final MenuItem itemShowOutgoing = menu.findItem(R.id.show_outgoing_only);
+        final MenuItem itemShowIncoming = menu.findItem(R.id.show_incoming_only);
+        final MenuItem itemShowMissed = menu.findItem(R.id.show_missed_only);
         // Check if all the menu items are inflated correctly. As a shortcut, we assume all
         // menu items are ready if the first item is non-null.
         if (itemDeleteAll != null) {
             itemDeleteAll.setEnabled(mAdapter != null && !mAdapter.isEmpty());
             menu.findItem(R.id.show_voicemails_only).setVisible(mVoicemailSourcesAvailable);
         }
+        
+        itemShowAll.setEnabled(mCallTypeFilter == CallLogQueryHandler.CALL_TYPE_ALL ? false : true);
+        itemShowOutgoing.setEnabled(mCallTypeFilter == Calls.OUTGOING_TYPE ? false : true);
+        itemShowIncoming.setEnabled(mCallTypeFilter == Calls.INCOMING_TYPE ? false : true);
+        itemShowMissed.setEnabled(mCallTypeFilter == Calls.MISSED_TYPE ? false : true);
     }
 
     @Override
